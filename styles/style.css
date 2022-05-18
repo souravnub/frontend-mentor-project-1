@@ -234,7 +234,7 @@ nav .links-container .drop-down-head .drop-down-links-container li a {
     padding: 0.23rem;
 }
 
-.main-page-container {
+.main-content-container {
     display: grid;
     grid-template: auto / 6fr 4fr;
     column-gap: 10rem;
@@ -245,7 +245,7 @@ nav .links-container .drop-down-head .drop-down-links-container li a {
     padding-bottom: 2rem;
 }
 
-.main-page-container .main-page-container__head-container {
+.main-content-container .main-content-container__head-container {
     display: flex;
     padding-top: 10%;
     margin-top: auto;
@@ -253,12 +253,15 @@ nav .links-container .drop-down-head .drop-down-links-container li a {
     gap: 2rem;
 }
 
-.main-page-container .main-page-container__head-container .img-container img {
+.main-content-container
+    .main-content-container__head-container
+    .img-container
+    img {
     max-height: 100%;
 }
 
-.main-page-container
-    .main-page-container__head-container
+.main-content-container
+    .main-content-container__head-container
     .head-container__sponsers-container {
     margin-top: 10%;
 
@@ -269,23 +272,23 @@ nav .links-container .drop-down-head .drop-down-links-container li a {
 
 /* 1100px */
 @media screen and (max-width: 68.75rem) {
-    .main-page-container {
+    .main-content-container {
         column-gap: 1rem;
     }
 }
 
 /* 1000px */
 @media screen and (max-width: 62.5rem) {
-    .main-page-container {
+    .main-content-container {
         display: flex;
         flex-direction: column-reverse;
     }
 
-    .main-page-container .img-container {
+    .main-content-container .img-container {
         max-width: 25.5rem;
         margin: auto;
     }
-    .main-page-container .main-page-container__head-container {
+    .main-content-container .main-content-container__head-container {
         align-items: center;
     }
 }
@@ -363,15 +366,15 @@ nav .links-container .drop-down-head .drop-down-links-container li a {
     nav {
         width: 70%;
     }
-    .main-page-container {
+    .main-content-container {
         max-width: 95%;
         text-align: center;
     }
-    .main-page-container .img-container {
+    .main-content-container .img-container {
         max-width: 100%;
     }
-    .main-page-container
-        .main-page-container__head-container
+    .main-content-container
+        .main-content-container__head-container
         .head-container__sponsers-container {
         flex-wrap: wrap;
         align-items: center;
